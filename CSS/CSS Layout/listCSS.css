@@ -1,0 +1,22 @@
+﻿body
+{
+}
+
+.list {
+            overflow: hidden;
+            max-height: 20px;
+        }
+        .list:hover { max-height: 150px; }
+
+        .list dd {
+            margin-left: 1em;
+            color: #888;
+            text-decoration: none;
+        }
+
+        .list a {
+            display: block;
+            color: inherit;
+            text-decoration: none;
+        }
+        .list dt a:hover { text-decoration: underline; }

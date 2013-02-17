@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7F7F40E-C300-4531-B755-A2B88DBB9F0D}"
+	ProjectSection(SolutionItems) = preProject
+		2. homework.css = 2. homework.css
+		2. homework.html = 2. homework.html
+		Calculator.css = Calculator.css
+		Calculator.html = Calculator.html
+		LoremCSS.css = LoremCSS.css
+		LoremIpsum.html = LoremIpsum.html
+		NestedDivsFigure.css = NestedDivsFigure.css
+		NestedDivsFigure.html = NestedDivsFigure.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{3D4F14B5-DC6C-4555-AEF3-F20D22BA2C2E}"
+	ProjectSection(SolutionItems) = preProject
+		images\calc.png = images\calc.png
+		images\li-dot.png = images\li-dot.png
+		images\Sample Logo.png = images\Sample Logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "script", "script", "{AAC88738-CEC8-49FC-A2FC-C9D7FA23BD62}"
+	ProjectSection(SolutionItems) = preProject
+		script\modernzr.js = script\modernzr.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D4F14B5-DC6C-4555-AEF3-F20D22BA2C2E} = {C7F7F40E-C300-4531-B755-A2B88DBB9F0D}
+		{AAC88738-CEC8-49FC-A2FC-C9D7FA23BD62} = {C7F7F40E-C300-4531-B755-A2B88DBB9F0D}
+	EndGlobalSection
+EndGlobal

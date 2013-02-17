@@ -1,0 +1,14 @@
+﻿body
+{ 
+    margin:15px;
+    margin-right:0;
+    padding:15px;
+}
+    div  {
+        border:1.5px;
+        border-color:red;
+        border-style:solid;
+        border-radius:60px;
+        background-color:black;
+        padding-right:4%;
+    }

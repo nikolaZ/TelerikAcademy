@@ -1,0 +1,80 @@
+﻿.main
+{
+    margin:25px;
+    padding:10px;
+    background-color:rgb(75, 75, 75);
+    font-family:Arial;
+    width:900px;
+    height:500px;
+    border-radius:15px;
+    border:4px ridge rgb(248,214,19);
+}
+h1 {
+    font-size:40px;
+    color:rgb(248,214,19);
+}
+fieldset legend {
+    color:#FFF;
+    font-size:35px;
+}
+.login legend {
+    font-size: 18px;
+    text-transform: lowercase;
+}
+.login legend, .login input, .login button {
+    float: left;
+    margin-left: 15px;
+}
+h1 {
+    margin:10px;
+}
+header fieldset{
+        width:900px;
+    height:60px;
+    margin:0;
+    padding:0;
+    padding-top:15px;
+    border-radius:10px;
+    border:none;
+}
+.login {
+            padding: 20px 10px 20px 55px;
+
+            background: url(monitor.png) no-repeat 16px 9px,
+                -webkit-radial-gradient(ellipse farthest-corner,
+                    transparent 0%, #343434 60%
+                ) no-repeat 55% 155%;
+
+            background: url(monitor.png) no-repeat 16px 9px,
+                -moz-radial-gradient(ellipse farthest-corner,
+                    transparent 0%, #343434 60%
+                ) no-repeat 55% 155%;
+
+            background: url(monitor.png) no-repeat 16px 9px,
+                -o-radial-gradient(ellipse farthest-corner,
+                    transparent 0%, #343434 60%
+                ) no-repeat 55% 155%;
+
+            background: url(monitor.png) no-repeat 16px 9px,
+                radial-gradient(ellipse farthest-corner,
+                    transparent 0%, #343434 60%
+                ) no-repeat 55% 155%;
+
+            -webkit-background-size: auto, 180% 45%;
+               -moz-background-size: auto, 180% 45%;
+                    background-size: auto, 180% 45%;
+
+            background-color: #343434;
+            color: #fff;
+            border-radius:15px;
+        }
+ .btn {
+            margin-top: -3px;
+            padding: 5px 15px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            background: rgba(229, 110, 110, .9);
+            box-shadow: inset 0px -15px 5px #EC0B0F;
+            color: #fff;
+            text-transform: uppercase;
+        }

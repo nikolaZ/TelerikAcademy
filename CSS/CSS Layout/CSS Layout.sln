@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8361586-6166-4ED9-B4C0-3D83BEDCEDB4}"
+	ProjectSection(SolutionItems) = preProject
+		BTV.html = BTV.html
+		BTVCSS.css = BTVCSS.css
+		CSS.css = CSS.css
+		CSSimg.png = CSSimg.png
+		CSSPage.html = CSSPage.html
+		image-1.png = image-1.png
+		image-2.png = image-2.png
+		image-3.png = image-3.png
+		Laptop.css = Laptop.css
+		Laptops.html = Laptops.html
+		List.html = List.html
+		listCSS.css = listCSS.css
+		macbook.jpg = macbook.jpg
+		MC.css = MC.css
+		monitor.png = monitor.png
+		MusicCategories.html = MusicCategories.html
+		news.png = news.png
+		TM.css = TM.css
+		TotalManagement.html = TotalManagement.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
