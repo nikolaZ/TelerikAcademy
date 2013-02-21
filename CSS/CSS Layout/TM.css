@@ -78,3 +78,21 @@ header fieldset{
             color: #fff;
             text-transform: uppercase;
         }
+		.btn:hover{
+            margin-top: -3px;
+            padding: 5px 15px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            background: rgba(255, 160, 160, 1);
+            box-shadow: inset 0px -15px 5px #EC0B0F;
+            color: #fff;
+            text-transform: uppercase;
+        }
+.article p a{
+color:black;
+text-decoration:none;
+}
+.article p a:hover{
+color:black;
+text-decoration:underline;
+}
