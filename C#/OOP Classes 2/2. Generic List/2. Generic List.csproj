@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E5F797E-5C18-4D37-8389-3E2B920209E0}</ProjectGuid>
+    <ProjectGuid>{6E55B7F1-90D7-448B-B206-82BDB80A6A09}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MobilePhone</RootNamespace>
-    <AssemblyName>MobilePhone</AssemblyName>
+    <RootNamespace>_2.Generic_List</RootNamespace>
+    <AssemblyName>_2.Generic_List</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Battery.cs" />
-    <Compile Include="Call.cs" />
-    <Compile Include="Display.cs" />
-    <Compile Include="GSM.cs" />
-    <Compile Include="GSMCallHistoryTest.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
     public enum BatteryType 
     { 
-        Li_Ion, NiMH, NiCd
+         Li_Ion, NiMH, NiCd
     }
     public class Battery
     {

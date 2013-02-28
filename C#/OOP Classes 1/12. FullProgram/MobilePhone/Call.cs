@@ -24,6 +24,7 @@ using System.Threading.Tasks;
         {
             get { return this.time; }
             set { this.time = value; }
+            //set { dateAndTime = DateTime.Parse(value.ToString()); }
         }
         public string DialedNumber 
         {
