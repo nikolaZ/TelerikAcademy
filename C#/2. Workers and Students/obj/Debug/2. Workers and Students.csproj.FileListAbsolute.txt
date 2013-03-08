@@ -1,0 +1,6 @@
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\bin\Debug\_2.Workers_and_Students.exe.config
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\bin\Debug\_2.Workers_and_Students.exe
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\bin\Debug\_2.Workers_and_Students.pdb
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\obj\Debug\_2.Workers_and_Students.exe
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\obj\Debug\_2.Workers_and_Students.pdb
+C:\Users\5750\documents\visual studio 2012\Projects\OOP Principles 1\2. Workers and Students\obj\Debug\2. Workers and Students.csprojResolveAssemblyReference.cache
