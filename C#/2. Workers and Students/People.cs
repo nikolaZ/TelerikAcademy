@@ -42,14 +42,12 @@ using System.Threading.Tasks;
             {
                 Console.WriteLine(w);
             }
-            List<Human> humen = new List<Human>();
-            humen.AddRange(workers);
-            humen.AddRange(students);
-            humen.Sort();
-            //humen.AddRange(students);
-            //humen.AddRange(workers);
-            //humen = humen.OrderBy(x => x.FirstName).ThenBy(x => x.Surname).ToList();
-            foreach (Human h in humen)
+            List<Human> humans = new List<Human>();
+            humans.AddRange(workers);
+            humans.AddRange(students);
+            humans.Sort();
+            //humans = humans.OrderBy(x => x.FirstName).ThenBy(x => x.Surname).ToList();
+            foreach (Human h in humans)
             {
                 Console.WriteLine("{0} {1} {2}",h.GetType(),h.FirstName,h.Surname);
             }

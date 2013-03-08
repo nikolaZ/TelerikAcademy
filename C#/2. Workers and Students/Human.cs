@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    abstract class  Human:IComparable
+    abstract class  Human:IComparable<Human>
     {
         public string firstName;
         private string surname;
@@ -52,16 +52,15 @@ using System.Threading.Tasks;
             return String.Format("{0} {1}", this.firstName, this.surname);
         }
 
-        public int CompareTo(Object human)
+        public int CompareTo(Human human)
         {
-            Human otherHuman = human as Human;
-            if (this.FirstName.CompareTo(otherHuman.FirstName) == 0)
+            if (this.FirstName.CompareTo(human.FirstName) == 0)
             {
-                return this.Surname.CompareTo(otherHuman.Surname);
+                return this.Surname.CompareTo(human.Surname);
             }
             else
             {
-                return this.FirstName.CompareTo(otherHuman.FirstName);
+                return this.FirstName.CompareTo(human.FirstName);
             }
         }
     }

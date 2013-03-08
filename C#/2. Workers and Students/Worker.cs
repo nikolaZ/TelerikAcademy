@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    class Worker:Human,IComparable
+    class Worker:Human,IComparable<Worker>
     {
         public decimal WeekSalary { get; set; }
         public int WorkHoursPerDay { get; set; }
@@ -27,15 +27,14 @@ using System.Threading.Tasks;
             return string.Format("{0}\n Week Salary: {1:C}\n Per Hour: {2:C}", base.ToString(), this.WeekSalary,MoneyPerHour());
         }
 
-        public int CompareTo(Object worker)
+        public int CompareTo(Worker worker)
         {
-            Worker otherWorker = worker as Worker;
-            if (this.MoneyPerHour().CompareTo(otherWorker.MoneyPerHour()) == 0)
+            if (this.MoneyPerHour().CompareTo(worker.MoneyPerHour()) == 0)
             {
-                return this.WorkHoursPerDay.CompareTo(otherWorker.WorkHoursPerDay);
+                return this.WorkHoursPerDay.CompareTo(worker.WorkHoursPerDay);
             }
 
-            return this.MoneyPerHour().CompareTo(otherWorker.MoneyPerHour());
+            return this.MoneyPerHour().CompareTo(worker.MoneyPerHour());
         }
     }
 
