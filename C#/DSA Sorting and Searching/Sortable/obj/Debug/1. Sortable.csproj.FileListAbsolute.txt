@@ -1,0 +1,6 @@
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\bin\Debug\Sortable.exe.config
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\bin\Debug\Sortable.exe
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\bin\Debug\Sortable.pdb
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\obj\Debug\1. Sortable.csprojResolveAssemblyReference.cache
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\obj\Debug\Sortable.exe
+c:\users\5750\documents\visual studio 2012\Projects\DSA Sorting and Searching\Sortable\obj\Debug\Sortable.pdb
